@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6663c0369cd78043be50560493a2f1e, type: 3}
+  m_Name: GoogleSheetSO
+  m_EditorClassIdentifier: 
+  SkillDataList:
+  - SkillId: 11
+    SkillName: "\uB85C\uCF13 \uADF8\uB7A9"
+    EffectIds: e9030000ea030000ec030000ee030000
+    SkillRange: 10
+    IsImmediately: 0
+    SkillSound: RocketGrab_SFX
+  - SkillId: 12
+    SkillName: "\uD3ED\uC8FC"
+    EffectIds: e9030000eb030000
+    SkillRange: 0
+    IsImmediately: 1
+    SkillSound: RunAway_SFX
+  - SkillId: 13
+    SkillName: "\uAC15\uCCA0 \uC8FC\uBA39"
+    EffectIds: e9030000ea030000ed030000
+    SkillRange: 5
+    IsImmediately: 0
+    SkillSound: IronFist_SFX
+  - SkillId: 14
+    SkillName: "\uC815\uC804\uAE30\uC7A5"
+    EffectIds: e9030000ea030000ee030000
+    SkillRange: 15
+    IsImmediately: 1
+    SkillSound: Ultimate_SFX
+  ActorDataList:
+  - ActorId: 1
+    ActorName: "\uBE14\uB9AC\uCE20\uD06C\uB7AD\uD06C"
+    MoveSpeed: 9.99
+    HpValue: 100
+    MpValue: 100
+    SkillIds: 0b0000000c0000000d0000000e000000
+  EffectDataList:
+  - EffectId: 1001
+    EffectDesc: "\uB9C8\uB098 \uC0AC\uC6A9"
+    EffectValue: 10
+    EffectDurationTime: 0
+    IsBehavior: 0
+    IsBuff: 0
+  - EffectId: 1002
+    EffectDesc: "\uB370\uBBF8\uC9C0"
+    EffectValue: 10
+    EffectDurationTime: 0
+    IsBehavior: 0
+    IsBuff: 0
+  - EffectId: 1003
+    EffectDesc: "\uC774\uB3D9\uC18D\uB3C4 \uC99D\uAC00 \uBC30\uC728"
+    EffectValue: 2
+    EffectDurationTime: 2.5
+    IsBehavior: 0
+    IsBuff: 1
+  - EffectId: 1004
+    EffectDesc: "\uADF8\uB7A9"
+    EffectValue: 0
+    EffectDurationTime: 1
+    IsBehavior: 1
+    IsBuff: 0
+  - EffectId: 1005
+    EffectDesc: "\uC5D0\uC5B4\uBCF8"
+    EffectValue: 0
+    EffectDurationTime: 1.5
+    IsBehavior: 1
+    IsBuff: 1
+  - EffectId: 1006
+    EffectDesc: "\uC2A4\uD134"
+    EffectValue: 0
+    EffectDurationTime: 1
+    IsBehavior: 0
+    IsBuff: 1

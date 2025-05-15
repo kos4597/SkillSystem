@@ -1,0 +1,222 @@
+{
+  "MonsterData": [
+    {
+      "MonsterId": 101,
+      "PrefabName": "Monster01",
+      "Hp": 100.01,
+      "MoveSpeed": 0.8,
+      "AttackDamage": 1.1
+    },
+    {
+      "MonsterId": 102,
+      "PrefabName": "Monster02",
+      "Hp": 100.01,
+      "MoveSpeed": 0.8,
+      "AttackDamage": 2.2
+    },
+    {
+      "MonsterId": 103,
+      "PrefabName": "Monster03",
+      "Hp": 100.01,
+      "MoveSpeed": 0.8,
+      "AttackDamage": 3.3
+    },
+    {
+      "MonsterId": 104,
+      "PrefabName": "Monster04",
+      "Hp": 100.01,
+      "MoveSpeed": 0.8,
+      "AttackDamage": 4.4
+    },
+    {
+      "MonsterId": 1001,
+      "PrefabName": "Boss01",
+      "Hp": 1000.01,
+      "MoveSpeed": 0.5,
+      "AttackDamage": 10.1
+    }
+  ],
+  "SkillData": [
+    {
+      "SkillId": 11,
+      "SkillName": "로켓 그랩",
+      "EffectIds": "1001/1002/1004/1006",
+      "SkillRange": 10,
+      "IsImmediately": false,
+      "SkillSound": "RocketGrab_SFX"
+    },
+    {
+      "SkillId": 12,
+      "SkillName": "폭주",
+      "EffectIds": "1001/1003",
+      "SkillRange": 0,
+      "IsImmediately": true,
+      "SkillSound": "RunAway_SFX"
+    },
+    {
+      "SkillId": 13,
+      "SkillName": "강철 주먹",
+      "EffectIds": "1001/1002/1005",
+      "SkillRange": 5,
+      "IsImmediately": false,
+      "SkillSound": "IronFist_SFX"
+    },
+    {
+      "SkillId": 14,
+      "SkillName": "정전기장",
+      "EffectIds": "1001/1002/1006",
+      "SkillRange": 15,
+      "IsImmediately": true,
+      "SkillSound": "Ultimate_SFX"
+    }
+  ],
+  "ActorData": [
+    {
+      "ActorId": 1,
+      "ActorName": "블리츠크랭크",
+      "MoveSpeed": 9.99,
+      "HpValue": 100,
+      "MpValue": 100,
+      "SkillIds": "11/12/13/14"
+    }
+  ],
+  "EffectData": [
+    {
+      "EffectId": 1001,
+      "EffectDesc": "마나 사용",
+      "EffectValue": 10,
+      "EffectDurationTime": 0,
+      "IsBehavior": false,
+      "IsBuff": false
+    },
+    {
+      "EffectId": 1002,
+      "EffectDesc": "데미지",
+      "EffectValue": 10,
+      "EffectDurationTime": 0,
+      "IsBehavior": false,
+      "IsBuff": false
+    },
+    {
+      "EffectId": 1003,
+      "EffectDesc": "이동속도 증가 배율",
+      "EffectValue": 2,
+      "EffectDurationTime": 2.5,
+      "IsBehavior": false,
+      "IsBuff": true
+    },
+    {
+      "EffectId": 1004,
+      "EffectDesc": "그랩",
+      "EffectValue": 0,
+      "EffectDurationTime": 1,
+      "IsBehavior": true,
+      "IsBuff": false
+    },
+    {
+      "EffectId": 1005,
+      "EffectDesc": "에어본",
+      "EffectValue": 0,
+      "EffectDurationTime": 1.5,
+      "IsBehavior": true,
+      "IsBuff": true
+    },
+    {
+      "EffectId": 1006,
+      "EffectDesc": "스턴",
+      "EffectValue": 0,
+      "EffectDurationTime": 1,
+      "IsBehavior": false,
+      "IsBuff": true
+    }
+  ],
+  "WaveData": [
+    {
+      "WaveId": 1,
+      "SpawnCount": 3,
+      "SpawnDelayTime": 0.5
+    },
+    {
+      "WaveId": 2,
+      "SpawnCount": 4,
+      "SpawnDelayTime": 0.5
+    },
+    {
+      "WaveId": 3,
+      "SpawnCount": 5,
+      "SpawnDelayTime": 0.5
+    },
+    {
+      "WaveId": 4,
+      "SpawnCount": 6,
+      "SpawnDelayTime": 0.5
+    },
+    {
+      "WaveId": 5,
+      "SpawnCount": 7,
+      "SpawnDelayTime": 0.5
+    },
+    {
+      "WaveId": 6,
+      "SpawnCount": 8,
+      "SpawnDelayTime": 0.5
+    },
+    {
+      "WaveId": 7,
+      "SpawnCount": 9,
+      "SpawnDelayTime": 0.5
+    },
+    {
+      "WaveId": 8,
+      "SpawnCount": 9,
+      "SpawnDelayTime": 0.5
+    },
+    {
+      "WaveId": 9,
+      "SpawnCount": 9,
+      "SpawnDelayTime": 0.5
+    },
+    {
+      "WaveId": 10,
+      "SpawnCount": 1,
+      "SpawnDelayTime": 0.5
+    }
+  ],
+  "BulletData": [
+    {
+      "BulletId": 1001,
+      "PrefabName": "Projectile00",
+      "FireRate": 0.1,
+      "BulletSpeed": 5,
+      "BulletDamage": 10
+    },
+    {
+      "BulletId": 1002,
+      "PrefabName": "Projectile01",
+      "FireRate": 0.3,
+      "BulletSpeed": 5,
+      "BulletDamage": 20
+    },
+    {
+      "BulletId": 1003,
+      "PrefabName": "Projectile02",
+      "FireRate": 1,
+      "BulletSpeed": 5,
+      "BulletDamage": 40
+    },
+    {
+      "BulletId": 1004,
+      "PrefabName": "Projectile03",
+      "FireRate": 2,
+      "BulletSpeed": 5,
+      "BulletDamage": 50
+    },
+    {
+      "BulletId": 1005,
+      "PrefabName": "Projectile04",
+      "FireRate": 4,
+      "BulletSpeed": 5,
+      "BulletDamage": 100
+    }
+  ]
+}
